@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: rgb(45, 145, 185);
 }
 
 main {
