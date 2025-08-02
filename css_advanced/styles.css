@@ -131,3 +131,31 @@ body, html {
   font-size: 0.8rem;
   color: #ccc; 
 }
+
+.testimonial {
+  background-color: #C271FF;
+  max-width: 1440px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testifier {
+  max-width: 160px;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.testifier img {
+  margin-top: 8px;
+  width: 80px;
+}
+
+.testifier-quote {
+  color: #FFFFFF;
+}
+
+.testifier-quote h3 {
+  margin-top: 20px;
+}
