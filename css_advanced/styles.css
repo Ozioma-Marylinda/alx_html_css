@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.hero {
+  position: relative;
+  height: 150vh;
+  overflow: hidden;
+}
+
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-text {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-text h1 {
+  font-size: 120px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.subheading span {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.register-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.pros {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+}
+
+.pros-heading {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.learn-highlight {
+  color: #C271FF;
+}
+
+.pros-bio {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.pros-bio div {
+  max-width: 150px;
+}
+
+.pros-avatar {
+  width: 120px; 
+  text-align: center;
+}
+
+.pros-avatar img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%; 
+  margin-bottom: 10px;
+}
+
+.pros-avatar h3 {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.pros-avatar p {
+  font-size: 0.8rem;
+  color: #ccc; 
+}
