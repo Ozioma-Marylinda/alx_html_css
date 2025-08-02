@@ -159,3 +159,127 @@ body, html {
 .testifier-quote h3 {
   margin-top: 20px;
 }
+
+.tutorials {
+  background-color: #FFFFFF;
+  margin-top: 60px;
+}
+
+.popular {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #15191e;
+}
+
+.pop {
+  color: #C271FF;
+}
+
+.tutors-space {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.tutors img {
+  margin-right: 20px;
+}
+
+.tutors p {
+  color: #333;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.tutors p,h3 {
+  margin-left: 8px;
+}
+
+.tutors {
+  display: grid;
+  gap: ;
+}
+
+.tutors h4 {
+  color: #C271FF;
+}
+
+.tutorial {
+  position: relative;
+  margin-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tutorial-pics {
+  width: 100%;
+}
+
+.tutorial img {
+  position: absolute;
+}
+
+.play {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  padding-right: 6rem;
+}
+
+.profile-status {
+  display: ;
+  justify-content: center;
+  margin-top: 6px;
+  margin-left: 0;
+}
+
+.tutorial-des {
+  display: grid;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 80px;
+  align-items: center;
+}
+.profile img {
+  margin-right: 1rem;
+  margin-left: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 0.5rem;
+  margin-right: 1rem;
+}
+
+.rating p {
+  text-align: center;
+  margin: 0;
+  align-self: center;
+  font-size: 0.9rem; 
+}
+
+.rates {
+  display: flex;
+  gap: 0.2rem;  
+  margin-right: 70px;
+  align-self: center;
+}
+
+.rates-points {
+   color: #C271FF;
+}
+
+.rates-point {
+  color: rgb(164, 169, 169);
+}
