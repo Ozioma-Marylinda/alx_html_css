@@ -197,7 +197,6 @@ body, html {
 
 .tutors {
   display: grid;
-  gap: ;
 }
 
 .tutors h4 {
@@ -229,7 +228,6 @@ body, html {
 }
 
 .profile-status {
-  display: ;
   justify-content: center;
   margin-top: 6px;
   margin-left: 0;
